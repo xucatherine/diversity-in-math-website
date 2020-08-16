@@ -8,6 +8,10 @@ h1 {
 h2 {
 
 }
+.logo {
+    width: 80px; 
+    padding-right: 5px;
+}
 .heading { /*entire heading*/
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -20,16 +24,19 @@ h2 {
     padding-bottom: 0px;
     color: rgb(159, 31, 31) !important;
 }
-.navbar-light .navbar-nav .active>.nav-link { /*page that we are currently on (heading)*/
+.navbar-light .navbar-nav .active>.nav-link { /*name of page that we are currently on (heading)*/
     color: rgb(159, 31, 31);
 } 
-.navbar-light .navbar-nav .nav-link { /*pages that we are not currently on (heading)*/
+.navbar-light .navbar-nav .nav-link { /*names of pages that we are not currently on (heading)*/
     color: rgba(159, 31, 31, .5);
 } 
 .navbar-nav .nav-item:hover .nav-link { /*when hovering over page names (heading)*/
     color: rgb(159, 31, 31);
 } 
 .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
-    /*so that no outline appears when you click on the toggle*/
+    /*so that no outline appears when you click on the hamburger (heading)*/
     outline: none;
 } 
+.navbar-toggler-icon { /*the hamburger (heading)*/
+    width: 20px;
+}
