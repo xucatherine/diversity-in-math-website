@@ -1,5 +1,6 @@
 body {
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
 }
 h1 {
 
@@ -7,6 +8,28 @@ h1 {
 h2 {
 
 }
-/*
-etc.
-*/
+.heading { /*entire heading*/
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgba(140, 140, 140, 0.5);
+    background-color: white !important;
+}
+.navbar-brand { /*club name (heading)*/
+    font-size: 20px !important;
+    font-weight: bold;
+    padding-bottom: 0px;
+    color: rgb(159, 31, 31) !important;
+}
+.navbar-light .navbar-nav .active>.nav-link { /*page that we are currently on (heading)*/
+    color: rgb(159, 31, 31);
+} 
+.navbar-light .navbar-nav .nav-link { /*pages that we are not currently on (heading)*/
+    color: rgba(159, 31, 31, .5);
+} 
+.navbar-nav .nav-item:hover .nav-link { /*when hovering over page names (heading)*/
+    color: rgb(159, 31, 31);
+} 
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    /*so that no outline appears when you click on the toggle*/
+    outline: none;
+} 
