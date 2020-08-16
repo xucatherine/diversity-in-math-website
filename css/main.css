@@ -1,6 +1,5 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
 }
 h1 {
 
@@ -9,7 +8,7 @@ h2 {
 
 }
 .logo {
-    width: 80px; 
+    width: 70px; 
     padding-right: 5px;
 }
 .heading { /*entire heading*/
@@ -17,6 +16,7 @@ h2 {
     border-bottom-width: 1px;
     border-color: rgba(140, 140, 140, 0.5);
     background-color: white !important;
+    font-size: 16px;
 }
 .navbar-brand { /*club name (heading)*/
     font-size: 25px !important;
