@@ -40,3 +40,13 @@ h2 {
 .navbar-toggler-icon { /*the hamburger (heading)*/
     width: 20px;
 }
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 10px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}

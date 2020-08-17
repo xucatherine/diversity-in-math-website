@@ -1,12 +1,13 @@
 #welcome-screen {
     margin-top: 60px;
     padding-top: 230px;
-    padding-bottom: 150px;
+    height: 95vh;
     border-left: 0px;
     text-align: center;
     font-weight: bolder;
     background-color: rgb(187, 56, 56);
     color: white;
+    position: relative;
 }
 #newsletter-form{
     
@@ -14,9 +15,10 @@
 .form-inline {
     margin-left: 50vw;
     transform: translate(-50%, 0);
-    width: 315px;
-    padding-top: 100px;
+    width: 270px;
+    margin-top: 150px;
     font-size: medium;
+    font-weight: lighter;
 }
 #inputEmail {
     margin-top: 15px;
@@ -29,4 +31,9 @@
     font-size: small;
     background-color: rgb(187, 56, 56);
     color: white;
+}
+.arrow {
+    position: absolute;
+    bottom: 30px;
+    border-color: white;
 }
