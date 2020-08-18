@@ -1,36 +1,32 @@
 #welcome-screen {
     margin-top: 60px;
-    padding-top: 230px;
+    padding-top: 260px;
     height: 95vh;
     border-left: 0px;
     text-align: center;
     font-weight: bolder;
-    background-color: rgb(187, 56, 56);
+    background-image: linear-gradient(rgb(170, 39, 39), rgb(210, 77, 77), rgb(242, 170, 170));
     color: white;
     position: relative;
 }
-#newsletter-form{
-    
-}
 .form-inline {
     margin-left: 50vw;
+    margin-top: 110px;
     transform: translate(-50%, 0);
     width: 270px;
-    margin-top: 150px;
     font-size: medium;
     font-weight: lighter;
 }
 #inputEmail {
     margin-top: 15px;
     font-size: small;
-    border-radius: 0;
 }
 .btn {
     margin-top: 15px;
-    border-radius: 0;
     font-size: small;
-    background-color: rgb(187, 56, 56);
-    color: white;
+}
+.btn:active, .btn.active, .btn:hover{
+    color: rgb(170, 39, 39) !important;
 }
 .arrow {
     position: absolute;
