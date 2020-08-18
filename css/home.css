@@ -1,7 +1,7 @@
 #welcome-screen {
     margin-top: 60px;
     padding-top: 260px;
-    height: 95vh;
+    padding-bottom: 170px;
     border-left: 0px;
     text-align: center;
     font-weight: bolder;
@@ -12,8 +12,9 @@
 .form-inline {
     margin-left: 50vw;
     margin-top: 110px;
+    margin-bottom: 30px;
     transform: translate(-50%, 0);
-    width: 270px;
+    width: 223px;
     font-size: medium;
     font-weight: lighter;
 }
