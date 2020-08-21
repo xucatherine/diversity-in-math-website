@@ -1,8 +1,11 @@
+/***************************************
+* CSS applicable to all/multiple pages *
+****************************************/
 :root {
     --main-color: rgb(167, 40, 40);
 }
 body {
-    font-family: Roboto, Geneva, Tahoma, sans-serif;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
     font-size: 80px;
