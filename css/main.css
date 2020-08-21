@@ -1,3 +1,6 @@
+:root {
+    --main-color: rgb(167, 40, 40);
+}
 body {
     font-family: Roboto, Geneva, Tahoma, sans-serif;
 }
@@ -14,11 +17,8 @@ h6 {
     color: grey;
     font-weight: normal;
 }
-a {
-    color: rgb(159, 31, 31);
-}
-a:hover {
-    color: rgb(215, 82, 82);
+p {
+    margin: 6px;
 }
 .logo {
     width: 60px; 
@@ -32,13 +32,13 @@ a:hover {
     font-size: 19px;
 }
 .navbar-light .navbar-nav .active>.nav-link { /*name of page that we are currently on (heading)*/
-    color: rgb(159, 31, 31);
+    color: var(--main-color);
 } 
 .navbar-light .navbar-nav .nav-link { /*names of pages that we are not currently on (heading)*/
     color: rgba(159, 31, 31, .5);
 } 
 .navbar-nav .nav-item:hover .nav-link { /*when hovering over page names (heading)*/
-    color: rgb(159, 31, 31);
+    color: var(--main-color);
 } 
 .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
     /*so that no outline appears when you click on the hamburger (heading)*/
@@ -47,25 +47,54 @@ a:hover {
 .navbar-toggler-icon { /*the hamburger (heading)*/
     width: 30px;
 }
-.red-btn {
-    background-color: rgb(201, 55, 55);
-    color: white;
+.dropdown-item { /* about us dropdown items*/
+    color: var(--main-color);
 }
-.red-btn:hover {
-    color: white;
-    background-color: rgb(215, 82, 82);
+.dropdown-item:active, .dropdown-item:hover {
+    color: var(--main-color);
+    background-color: rgb(242, 242, 242);
+}
+
+.dropdown-toggle:focus .dropdown-toggle:active{
+    color: var(--main-color);
 }
 .btn:active, .btn:hover{
     outline: none !important;
 }
-.arrow {
+.arrow { /*draws diamond that can be turned into arrow (put here in case we want to use more arrows*/
     border: solid black;
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 10px;
     transform: translate(-50%, 0);
 }
-.down {
+.down { /*makes an arrow face down*/
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+.link { /*for the red link/whatever the main colour is*/
+    color: var(--main-color);
+}
+.link:hover {
+    color: rgb(215, 82, 82);
+}
+.footer { /*entire footer div*/
+    background-color: rgb(167, 40, 40);
+    padding: 40px;
+    text-align: center;
+    font-size: 13px;
+}
+.footer-link { /*the transparent white links in the footer*/
+    color: rgba(255, 255, 255, 0.5);
+    margin: 30px;
+}
+.footer-link:hover {
+    color: white;
+}
+.socials { /*div with social media widgets*/
+    margin-bottom: 20px;
+}
+.icon { /*social media widget*/
+    width: 25px;
+    margin: 8px;
 }

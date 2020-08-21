@@ -2,13 +2,71 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Diversity in Math - Events</title>
-        //to link external css:
-        <link rel="stylesheet" type="text/css" href="css/______">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Diversity in Math - Home</title>
+        <!--Bootstrap css:-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!--Main css:-->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!--css for this page specifically:-->
     </head>
     <body>
+        <!--HEADER-->
+        <nav class = "heading navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <a class = "navbar-brand">
+                <img src="images/dim-logo.png" class="logo">
+            </a>
         
-        //to link external js (leave at very end of body for faster web display time):
-        // <script src="javascript/_______"></script>
+            <!--add toggle icon:-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <!--links to pages:-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About Us
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="mission.html">Our Mission</a>
+                            <a class="dropdown-item" href="team.html">Meet the Team</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <p><br><br><br></p> <!--placeholder, remember to remove-->
+        
+        <!--FOOTER-->
+        <div class="footer">
+            <div class="socials">
+                <img class="icon" src="images/facebook-logo-white.png">
+                <img class="icon" src="images/instagram-logo-white.png">
+                <img class="icon" src="images/twitter-logo-white.png">
+            </div>
+            <a href="mission.html" class="footer-link">Our Mission</a>
+            <a href="team.html" class="footer-link">Meet the Team</a>
+            <a href="events.html" class="footer-link">Events</a>
+            <a href="contact.html" class="footer-link">Contact</a>
+        </div>
+
+        <!--to link external js (leave at very end of body for faster web display time):
+        <script src="javascript/main.js"></script> -->
+        <!--Bootstrap js stuff:-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>

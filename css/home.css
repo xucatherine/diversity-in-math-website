@@ -1,3 +1,6 @@
+:root {
+    --main-color: rgb(167, 40, 40);
+}
 #welcome-screen {
     margin-top: 60px;
     padding-top: 280px;
@@ -5,7 +8,7 @@
     border-left: 0px;
     text-align: center;
     font-weight: bolder;
-    background-image: linear-gradient(rgb(170, 39, 39), rgb(210, 77, 77), rgb(242, 170, 170));
+    background-image: linear-gradient(var(--main-color), rgb(210, 77, 77), rgb(242, 170, 170));
     color: white;
     position: relative;
 }
@@ -27,26 +30,23 @@
 #join-button:focus {
     outline-color: rgba(170, 39, 39, 0.5);;
 }
-.arrow {
+.arrow { /*just for positioning and colouring the arrow*/
     position: absolute;
     bottom: 40px;
     border-color: white;
 }
 #upcoming-events {
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 110px;
-    padding-bottom: 100px;
+    padding: 110px 130px 100px 130px;
     background-color: rgb(255, 255, 255);
 }
-.card-img-top {
-    height: 230px;
-}
-.card {
+.card { /*event cards*/
     margin: 10px;
     transition-duration: 0.4s;
     text-decoration: none;
     color: black;
+}
+.card-img-top { 
+    height: 230px;
 }
 .card:hover {
     box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.24);
