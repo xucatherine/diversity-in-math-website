@@ -31,18 +31,18 @@ h6 {
     background-color: white !important;
     font-size: 19px;
 }
-.navbar-light .navbar-nav .active>.nav-link { /*name of page that we are currently on (heading)*/
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, /*name of page that we are currently on*/
+.navbar-light .navbar-nav .show>.nav-link, /*when dropdown is shown*/
+.navbar-nav .nav-item:hover .nav-link /*page user is hovering over*/{ 
     color: var(--main-color);
-} 
+}
 .navbar-light .navbar-nav .nav-link { /*names of pages that we are not currently on (heading)*/
     color: rgba(159, 31, 31, .5);
 } 
-.navbar-nav .nav-item:hover .nav-link { /*when hovering over page names (heading)*/
-    color: var(--main-color);
-} 
-.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
-    /*so that no outline appears when you click on the hamburger (heading)*/
-    outline: none;
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus, .btn:active, .btn:hover {
+    /*so that no outline appears when you click on the hamburger and buttons*/
+    outline: none !important;
 } 
 .navbar-toggler-icon { /*the hamburger (heading)*/
     width: 30px;
@@ -50,16 +50,9 @@ h6 {
 .dropdown-item { /* about us dropdown items*/
     color: var(--main-color);
 }
-.dropdown-item:active, .dropdown-item:hover {
+.dropdown-item:active, .dropdown-item:hover, .dropdown .dropdown-menu .active {
     color: var(--main-color);
     background-color: rgb(242, 242, 242);
-}
-
-.dropdown-toggle:focus .dropdown-toggle:active{
-    color: var(--main-color);
-}
-.btn:active, .btn:hover{
-    outline: none !important;
 }
 .arrow { /*draws diamond that can be turned into arrow (put here in case we want to use more arrows*/
     border: solid black;
