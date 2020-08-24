@@ -6,7 +6,7 @@
 }
 #welcome-screen {
     margin-top: 60px;
-    padding-top: 280px;
+    padding-top: 180px;
     padding-bottom: 250px;
     border-left: 0px;
     text-align: center;
@@ -18,7 +18,6 @@
 }
 .equation-bg {
     background-image: linear-gradient(var(--main-color), rgb(210, 77, 77), rgb(242, 170, 170));
-
     position: absolute;
     top: 10px;
     left: 50%;
@@ -26,6 +25,11 @@
     width: 100%;
     min-width: 1300px;
     z-index: -1;
+}
+.logo-white {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 0px;
 }
 #join-button {
     border: solid white 2px;
