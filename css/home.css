@@ -11,9 +11,20 @@
     border-left: 0px;
     text-align: center;
     font-weight: bolder;
-    background-image: linear-gradient(var(--main-color), rgb(210, 77, 77), rgb(242, 170, 170));
     color: white;
     position: relative;
+    overflow: hidden;
+}
+.equation-bg {
+    background-image: linear-gradient(var(--main-color), rgb(210, 77, 77), rgb(242, 170, 170));
+
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100%;
+    min-width: 1300px;
+    z-index: -1;
 }
 #join-button {
     border: solid white 2px;
