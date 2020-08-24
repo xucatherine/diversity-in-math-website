@@ -2,8 +2,9 @@
 * CSS for the EVENTS page *
 ***************************/
 h2 {
-    margin-left: 7vw;
+    margin-left: 8vw;
     margin-top: 40px;
+    margin-bottom: 30px;
 }
 .events-sidebar {
     position: fixed;
@@ -13,8 +14,12 @@ h2 {
     padding: 20px 0 20vh 25px;
     width: 18vw;
 }
-#calendar-overview {
+#calendar-overview, #upcoming-events, #past-events {
     margin-left: 8vw;
+    margin-right: 21vw;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    border-top: solid 1px lightgrey;
 }
 .calendar {
     border: solid 1px #ffffff;

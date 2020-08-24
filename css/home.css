@@ -50,13 +50,13 @@
 #join-button:focus {
     outline-color: rgba(170, 39, 39, 0.5);;
 }
-.arrow { /*just for positioning and colouring the arrow*/
+.arrow { /*just for positioning and colouring the arrow (css for drawing the arrow is in main.css)*/
     position: absolute;
     bottom: 40px;
     border-color: white;
 }
 #upcoming-events {
-    padding: 110px 130px 100px 130px;
+    padding: 110px 8vw 110px 8vw;
     background-color: rgb(255, 255, 255);
 }
 .card { /*event cards*/
