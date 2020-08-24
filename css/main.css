@@ -27,7 +27,7 @@ h6 {
     font-weight: normal;
 }
 .logo {
-    width: 60px; 
+    width: 50px; 
     padding-right: 5px;
 }
 .heading { /*entire heading*/
@@ -36,6 +36,7 @@ h6 {
     border-color: rgba(140, 140, 140, 0.5);
     background-color: white !important;
     font-size: 19px;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.24);
 }
 .navbar-light .navbar-nav .active>.nav-link, 
 .navbar-light .navbar-nav .nav-link.active, /*name of page that we are currently on*/
