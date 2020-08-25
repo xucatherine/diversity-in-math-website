@@ -60,10 +60,9 @@
 }
 #upcoming-events {
     padding: 110px 8vw 110px 8vw;
-    background-color: rgb(255, 255, 255);
 }
 .card { /*event cards*/
-    margin: 10px;
+    margin: 30px 10px 10px 10px;
     transition-duration: 0.4s;
     text-decoration: none;
     color: black;

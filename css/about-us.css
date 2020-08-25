@@ -1,0 +1,16 @@
+/*******************************
+* CSS for the OUR MISSION page *
+********************************/
+#mission, #team {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#team {
+    padding-top: 40px;
+    border-top: solid 1px lightgrey;
+}
+p {
+    font-size: 18px;
+}
