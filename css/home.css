@@ -6,8 +6,8 @@
 }
 #welcome-screen {
     margin-top: 60px;
-    padding-top: 170px;
-    padding-bottom: 250px;
+    padding-top: 275px;
+    padding-bottom: 260px;
     border-left: 0px;
     text-align: center;
     font-weight: bolder;
@@ -16,20 +16,23 @@
     overflow: hidden;
     text-shadow: 2px 7px 7px rgba(0, 0, 0, 0.24);
 }
-.equation-bg {
-    background-image: linear-gradient(var(--main-color), rgb(210, 77, 77), rgb(242, 170, 170));
+.equation-bg, .gradient-bg {
     position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translate(-50%,0);
     width: 100%;
     min-width: 1300px;
     z-index: -1;
 }
-.logo-white {
-    width: 120px;
-    height: 120px;
-    margin: auto;
+.equation-bg {
+    opacity: 0.7;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.gradient-bg {
+    background-image: linear-gradient(var(--main-color), rgb(210, 77, 77), rgb(242, 170, 170));
+    height: 110vh;
+    top: 0;
+    left: 0;
 }
 #join-button {
     border: solid white 2px;
