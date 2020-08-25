@@ -6,7 +6,7 @@
 }
 #welcome-screen {
     margin-top: 60px;
-    padding-top: 180px;
+    padding-top: 170px;
     padding-bottom: 250px;
     border-left: 0px;
     text-align: center;
@@ -29,7 +29,7 @@
 .logo-white {
     width: 120px;
     height: 120px;
-    margin-bottom: 0px;
+    margin: auto;
 }
 #join-button {
     border: solid white 2px;
