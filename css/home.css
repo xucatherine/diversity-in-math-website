@@ -30,7 +30,7 @@
 }
 .gradient-bg {
     background-image: linear-gradient(var(--main-color), rgb(210, 77, 77), rgb(242, 170, 170));
-    height: 110vh;
+    height: 800px;
     top: 0;
     left: 0;
 }
