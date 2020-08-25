@@ -29,7 +29,7 @@ h6 {
 .bg-logo {
     width: auto;
     height: auto;
-    max-width: 1000px;
+    max-width: 900px;
     position: fixed;
     top: 56%;
     left: 50%;
@@ -42,8 +42,7 @@ h6 {
     padding-right: 5px;
 }
 .heading { /*entire heading*/
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-bottom: solid 1px;
     border-color: rgba(140, 140, 140, 0.5);
     background-color: white !important;
     font-size: 17px;
