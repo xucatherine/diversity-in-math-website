@@ -21,7 +21,7 @@ h2 {
     border-top: solid 1px lightgrey;
 }
 .calendar {
-    border: solid 1px #ffffff;
+    border: none;
     width: 60vw;
     height: 40vw;
 }
