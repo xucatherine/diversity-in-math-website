@@ -27,9 +27,9 @@ h6 {
     font-weight: normal;
 }
 .bg-logo {
+    height: 100%;
     width: auto;
-    height: auto;
-    max-width: 900px;
+    min-height: 780px;
     position: fixed;
     top: 56%;
     left: 50%;

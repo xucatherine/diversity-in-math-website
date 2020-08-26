@@ -19,7 +19,7 @@
 .equation-bg, .gradient-bg {
     position: absolute;
     width: 100%;
-    min-width: 1300px;
+    min-width: 1350px;
     z-index: -1;
 }
 .equation-bg {
