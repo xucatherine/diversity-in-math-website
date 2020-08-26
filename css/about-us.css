@@ -10,7 +10,17 @@
 #team {
     padding-top: 40px;
     border-top: solid 1px lightgrey;
+    margin-bottom: 30px;
 }
 p {
     font-size: 18px;
+}
+.row {
+    margin-top: 60px;
+}
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
