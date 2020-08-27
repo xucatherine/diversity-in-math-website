@@ -4,23 +4,39 @@
 #mission, #team {
     margin-left: 8vw;
     margin-right: 8vw;
-    text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+    border-top: solid 1px lightgrey;
+    padding-top: 25px;
 }
 #team {
-    padding-top: 40px;
-    border-top: solid 1px lightgrey;
     margin-bottom: 30px;
+}
+h2 {
+    margin-left: 8vw;
+    margin-top: 45px;
 }
 p {
     font-size: 18px;
 }
-.row {
-    margin-top: 60px;
+.profile {
+    text-align: center;
 }
-.profile-pic {
+.profile-pic { 
+    /*will need to crop pictures into squares before inserting*/
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+/*FOR PHONES*/
+@media only screen and (max-device-width : 600px) {
+    h2 {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    p {
+        font-size: 15px;
+    }
 }

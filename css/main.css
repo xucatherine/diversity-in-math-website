@@ -62,16 +62,11 @@ h6 {
 .navbar-toggler-icon { /*the hamburger (heading)*/
     width: 25px;
 }
-.arrow { /*draws diamond that can be turned into arrow (put here in case we want to use more arrows*/
+.arrow-down {
     border: solid black;
     border-width: 0 2px 2px 0;
-    display: inline-block;
     padding: 10px;
-    transform: translate(-50%, 0);
-}
-.down { /*makes an arrow face down*/
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+    transform: translate(-50%, 0) rotate(45deg);
 }
 .link { /*for the red link/whatever the main colour is*/
     color: var(--main-color);
@@ -99,4 +94,42 @@ h6 {
 .icon { /*social media widget*/
     width: 25px;
     margin: 8px;
+}
+
+/*FOR PHONES*/
+@media only screen and (max-device-width : 600px) {
+    body {
+        text-align: center;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    p, h6{
+        font-size: 15px;
+    }
+    .heading {
+        box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.24);
+    }
+    .logo {
+        width: 45px;
+    }
+    .bg-logo {
+        min-height: 500px;
+    }
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .socials {
+        margin-bottom: 10px;
+    }
 }

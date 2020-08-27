@@ -3,15 +3,19 @@
 ***************************/
 h2 {
     margin-left: 8vw;
-    margin-top: 40px;
+    margin-top: 45px;
 }
 .events-sidebar {
     position: fixed;
     top: 135px;
     right: 3vw;
-    border-left: solid lightgrey 2px;
-    padding: 20px 0 20vh 25px;
+    border: solid lightgrey 1px;
+    padding: 30px 0 30px 25px;
     width: 18vw;
+}
+.link {
+    display: block;
+    margin-bottom: 20px;
 }
 #calendar-overview, #upcoming-events, #past-events {
     margin-left: 8vw;
@@ -24,4 +28,34 @@ h2 {
     border: none;
     width: 60vw;
     height: 40vw;
+}
+
+/*FOR PHONES*/
+@media only screen and (max-device-width : 600px) {
+    h2 {
+        margin-left: 0px;
+    }
+    #calendar-overview, #upcoming-events, #past-events {
+        margin-right: 8vw;
+    }
+    .calendar {
+        width: 80vw;
+        height: 80vw;
+    }
+    .events-sidebar {
+        top: 65px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        padding: 5px;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .link {
+        display: initial;
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: grey;
+    }
 }

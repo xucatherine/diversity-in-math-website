@@ -7,7 +7,7 @@
 #welcome-screen {
     margin-top: 60px;
     padding-top: 275px;
-    padding-bottom: 260px;
+    padding-bottom: 265px;
     text-align: center;
     font-weight: bolder;
     color: white;
@@ -52,7 +52,7 @@
 #join-button:focus {
     outline-color: rgba(170, 39, 39, 0.5);;
 }
-.arrow { /*just for positioning and colouring the arrow (css for drawing the arrow is in main.css)*/
+.arrow-down { /*just for positioning and colouring the arrow (css for drawing the arrow is in main.css)*/
     position: absolute;
     bottom: 40px;
     border-color: white;
@@ -74,4 +74,23 @@
     color: black;
 }
 
-
+/*FOR PHONES*/
+@media only screen and (max-device-width : 600px) {
+    #welcome-screen {
+        padding-top: 250px;
+        padding-bottom: 240px;
+    }
+    #join-button {
+        width: 50vw;
+        font-size: 15px;
+    }
+    #upcoming-event {
+        padding: 0px 8vw 0px 8vw;
+    }
+    .card {
+        box-shadow: 0 10px 7px 0 rgba(0, 0, 0, 0.24);
+    }
+    .card-img-top {
+        height: 200px;
+    }
+}
