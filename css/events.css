@@ -21,7 +21,7 @@ h2 {
     margin-left: 8vw;
     margin-right: 21vw;
     margin-bottom: 50px;
-    padding-top: 25px;
+    padding-top: 30px;
     border-top: solid 1px lightgrey;
 }
 .calendar {
@@ -30,20 +30,10 @@ h2 {
     height: 40vw;
 }
 
-/*FOR PHONES*/
-@media only screen and (max-device-width : 600px) {
-    h2 {
-        margin-left: 0px;
-    }
-    #calendar-overview, #upcoming-events, #past-events {
-        margin-right: 8vw;
-    }
-    .calendar {
-        width: 80vw;
-        height: 80vw;
-    }
+/*to change sidebar placement when viewport is narrow*/
+@media only screen and (max-width : 900px) {
     .events-sidebar {
-        top: 65px;
+        top: 70px;
         left: 50%;
         transform: translate(-50%, 0);
         padding: 5px;
@@ -57,5 +47,22 @@ h2 {
         margin-left: 5px;
         margin-right: 5px;
         color: grey;
+    }
+    #calendar-overview, #upcoming-events, #past-events {
+        margin-right: 8vw;
+    }
+}
+
+/*FOR PHONES*/
+@media only screen and (max-device-width : 600px) {
+    h2 {
+        margin-left: 0px;
+    }
+    .calendar {
+        width: 80vw;
+        height: 80vw;
+    }
+    .events-sidebar {
+        top: 65px;
     }
 }
