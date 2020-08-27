@@ -51,6 +51,10 @@ h2 {
     #calendar-overview, #upcoming-events, #past-events {
         margin-right: 8vw;
     }
+    .calendar {
+        width: 80vw;
+        height: 60vw;
+    }
 }
 
 /*FOR PHONES*/
