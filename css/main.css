@@ -25,6 +25,9 @@ h6 {
     color: grey;
     font-weight: normal;
 }
+a:hover {
+    text-decoration: none;
+}
 .bg-logo {
     height: 100%;
     width: auto;
