@@ -33,9 +33,9 @@ a:hover {
 .bg-logo {
     height: 100%;
     width: auto;
-    min-height: 780px;
+    min-height: 500px;
     position: fixed;
-    top: 56%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%,-50%);
     opacity: 0.1;
@@ -126,9 +126,6 @@ a:hover {
     }
     .logo {
         width: 50px;
-    }
-    .bg-logo {
-        min-height: 0px;
     }
     .footer {
         padding-top: 30px;
