@@ -87,9 +87,6 @@
     #upcoming-event {
         padding: 0px 8vw 0px 8vw;
     }
-    .card {
-        box-shadow: 0 10px 7px 0 rgba(0, 0, 0, 0.24);
-    }
     .card-img-top {
         height: 200px;
     }
