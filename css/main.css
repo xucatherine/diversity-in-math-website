@@ -8,9 +8,11 @@ body {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
+    font-weight: 500;
     font-size: 80px;
 }
 h2 {
+    font-weight: 500;
     font-size: 55px;
     margin-bottom: 30px;
     color: var(--main-color);
@@ -37,7 +39,7 @@ a:hover {
     left: 50%;
     transform: translate(-50%,-50%);
     opacity: 0.1;
-    z-index: -1;
+    z-index: -2;
 }
 .logo {
     width: 60px; 
@@ -126,7 +128,7 @@ a:hover {
         width: 50px;
     }
     .bg-logo {
-        min-height: 500px;
+        min-height: 0px;
     }
     .footer {
         padding-top: 30px;
