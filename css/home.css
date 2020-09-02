@@ -77,13 +77,28 @@
 
 /*FOR PHONES*/
 @media only screen and (max-device-width : 600px) {
+    .equation-bg, .gradient-bg {
+        min-width: 500px;
+        height: 110vh;
+        width: auto;
+    }
     #welcome-screen {
-        padding-top: 250px;
-        padding-bottom: 240px;
+        padding: 0;
+        height: 100vh;
+    }
+    h1 {
+        position: absolute;
+        top: 30vh;
+        left: 50vw;
+        transform: translate(-50%,0);
     }
     #join-button {
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
         width: 50vw;
         font-size: 15px;
+        transform: translate(-50%,0);
     }
     #upcoming-event {
         padding: 0px 8vw 0px 8vw;
