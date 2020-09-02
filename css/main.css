@@ -82,9 +82,10 @@ a:hover {
 .footer { /*entire footer div*/
     background-color: var(--main-color);
     padding-top: 40px; 
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     text-align: center;
     font-size: 13px;
+    position: relative;
 }
 .footer-link { /*the transparent white links in the footer*/
     color: rgba(255, 255, 255, 0.5);
@@ -99,6 +100,14 @@ a:hover {
 .icon { /*social media widget*/
     height: 25px;
     margin: 8px;
+}
+#credit {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    transform: translate(0, 0);
+    font-size: small;
+    color: rgba(255, 255, 255, 0.4);
 }
 
 /*FOR PHONES*/
