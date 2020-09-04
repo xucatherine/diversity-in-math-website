@@ -50,7 +50,7 @@ a:hover {
     border-color: rgba(140, 140, 140, 0.5);
     background-color: white !important;
     font-size: 18px;
-    box-shadow: 0 6px 7px 0 rgba(0, 0, 0, 0.24);
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2);
 }
 .navbar-light .navbar-nav .active>.nav-link, 
 .navbar-light .navbar-nav .nav-link.active, /*name of page that we are currently on*/
@@ -98,7 +98,7 @@ a:hover {
     margin-bottom: 20px;
 }
 .icon { /*social media widget*/
-    height: 25px;
+    height: 20px;
     margin: 8px;
 }
 #credit {

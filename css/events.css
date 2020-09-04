@@ -3,12 +3,14 @@
 ***************************/
 h2 {
     margin-left: 8vw;
-    margin-top: 45px;
+    margin-top: 30px;
 }
 .events-sidebar {
-    position: fixed;
+    position: sticky;
+    float: right;
     top: 135px;
     right: 3vw;
+    margin-top: 20px;
     border: solid lightgrey 1px;
     padding: 30px 0 30px 25px;
     width: 18vw;
@@ -33,11 +35,14 @@ h2 {
 /*to change sidebar placement when viewport is narrow*/
 @media only screen and (max-width : 900px) {
     .events-sidebar {
-        top: 70px;
+        position: fixed;
+        top: 80px;
         left: 50%;
-        transform: translate(-50%, 0);
+        transform: translate(-50%,0);
         padding: 5px;
+        margin-top: 0px;
         width: 100%;
+        float: none;
         text-align: center;
         background-color: rgba(255, 255, 255, 0.9);
     }
