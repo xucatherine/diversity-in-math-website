@@ -19,8 +19,8 @@ h2 {
     background-color: rgb(184, 34, 34);
 }
 .form-control:active, .form-control:focus {
-    box-shadow: none;
     border-color: rgb(241, 95, 95);
+    box-shadow: 0 0 0 0.2rem rgba(241, 119, 119, 0.25)
 }
 
 @media only screen and (max-device-width : 600px) {
