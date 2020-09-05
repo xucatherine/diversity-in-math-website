@@ -18,6 +18,10 @@ h2 {
 .btn:hover {
     background-color: rgb(184, 34, 34);
 }
+.form-control:active, .form-control:focus {
+    box-shadow: none;
+    border-color: rgb(241, 95, 95);
+}
 
 @media only screen and (max-device-width : 600px) {
     h2 {
