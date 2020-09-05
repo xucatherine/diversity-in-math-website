@@ -1,0 +1,30 @@
+:root {
+    --main-color: rgb(167, 40, 40);
+}
+h2 {
+    margin-left: 8vw;
+}
+#contact-info {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding: 35px 0px 100px 0px;
+    border-top: solid 1px lightgrey;
+}
+.btn {
+    background-color: rgb(241, 95, 95);
+    color: white;
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    background-color: rgb(184, 34, 34);
+}
+
+@media only screen and (max-device-width : 600px) {
+    h2 {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    form {
+        text-align: left;
+    }
+}
