@@ -1,11 +1,17 @@
 /***************************************
 * CSS applicable to all/multiple pages *
 ****************************************/
+@font-face {
+    font-family: 'dosis';
+    src: url(fonts/Dosis-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 :root {
     --main-color: rgb(167, 40, 40);
 }
 body {
-    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: dosis, Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
     font-weight: 500;
