@@ -14,11 +14,11 @@ body {
     font-family: dosis, Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 80px;
 }
 h2 {
-    font-weight: 500;
+    font-weight: bolder;
     font-size: 55px;
     margin-bottom: 30px;
     color: var(--main-color);
@@ -27,11 +27,11 @@ h3 {
     margin-bottom: 30px;
     font-size: 40px;
     color: rgb(167, 50, 50);
-    font-weight: normal;
+    font-weight: bold;
 }
 h6 {
     color: grey;
-    font-weight: normal;
+    font-weight: bolder;
 }
 a:hover {
     text-decoration: none;
