@@ -85,22 +85,23 @@ a:hover {
 }
 .footer { /*entire footer div*/
     background-color: var(--main-color);
-    padding-top: 40px; 
-    padding-bottom: 50px;
+    padding-top: 30px; 
+    padding-bottom: 55px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     position: relative;
 }
 .footer-link { /*the transparent white links in the footer*/
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
     margin: 30px;
     transition-duration: 0.3s;
 }
 .footer-link:hover {
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
 }
 .socials { /*div with social media widgets*/
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .icon { /*social media widget*/
     height: 20px;
@@ -112,10 +113,13 @@ a:hover {
 }
 #credit {
     position: absolute;
-    bottom: 5px;
-    left: 5px;
-    transform: translate(0, 0);
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: left;
     color: rgba(255, 255, 255, 0.4);
+    border-top: solid 1px rgba(255, 255, 255, 0.5);
+    font-size: 12px;
 }
 
 /*FOR PHONES*/
@@ -149,10 +153,8 @@ a:hover {
     }
     .footer {
         padding-top: 30px;
-        padding-bottom: 45px;
-    }
-    .footer-link {
-        margin: 20px;
+        padding-bottom: 55px;
+        font-size: 14px;
     }
     .socials {
         margin-bottom: 10px;
