@@ -14,7 +14,7 @@ body {
     font-family: dosis, Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 80px;
 }
 h2 {
@@ -57,6 +57,7 @@ a:hover {
     background-color: white !important;
     font-size: 18px;
     box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.24);
+    font-weight: bold;
 }
 .navbar-nav .nav-item .nav-link {
     transition-duration: 0.3s;
