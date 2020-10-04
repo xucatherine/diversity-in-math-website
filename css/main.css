@@ -158,6 +158,9 @@ a:hover {
     .logo {
         width: 50px;
     }
+    .link, .footer-link {
+        text-decoration: underline;
+    }
     .footer {
         padding-top: 30px;
         padding-bottom: 55px;
